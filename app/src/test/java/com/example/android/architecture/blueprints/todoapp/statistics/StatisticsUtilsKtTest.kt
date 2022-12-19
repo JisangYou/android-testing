@@ -21,10 +21,6 @@ class StatisticsUtilsKtTest {
         assertEquals(result.completedTasksPercent, 0f)
         assertEquals(result.activeTasksPercent, 100f)
 
-        // REPLACE
-        assertEquals(result.completedTasksPercent, 0f)
-        assertEquals(result.activeTasksPercent, 100f)
-
         // WITH
         assertThat(result.activeTasksPercent, `is`(100f))
         assertThat(result.completedTasksPercent, `is`(0f))
